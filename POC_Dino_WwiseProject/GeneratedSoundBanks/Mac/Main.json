@@ -1,0 +1,68 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{B3966BAE-A6E1-4661-93E2-DE8CEF60FAE3}",
+    "Language": "SFX",
+    "Hash": "{E3A07C7F-3657-222C-2C51-7AD148A4B70C}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "363117496",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mixkit-waterfall-ambience-2513.wav",
+      "CachePath": "50/{5023D5B2-E412-25A9-4FA2-933B595E06B9}.wem"
+     },
+     {
+      "Id": "895440555",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dinosaur-roar-390283.wav",
+      "CachePath": "A0/{A0692836-7A8B-1027-6E31-00E4D78A8036}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3879956212",
+      "Name": "DinoScreech",
+      "ObjectPath": "\\Events\\Default Work Unit\\DinoScreech",
+      "GUID": "{8E7683DA-BF79-4503-BEE4-7C38E81D5671}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.1012244",
+      "DurationMax": "4.1012244",
+      "MediaRefs": [
+       {
+        "Id": "895440555"
+       }
+      ]
+     },
+     {
+      "Id": "2074477625",
+      "Name": "WaterFall",
+      "ObjectPath": "\\Events\\Default Work Unit\\WaterFall",
+      "GUID": "{EAA9E95F-0BEE-4EF5-9B46-555D264F5ADA}",
+      "MaxAttenuation": "3000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "363117496"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E0F99A59-76E9-C24A-3BE6-682AAD7C7AFC}"
+ }
+}

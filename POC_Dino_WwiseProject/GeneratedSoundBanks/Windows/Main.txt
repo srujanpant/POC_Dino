@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2074477625	WaterFall			\Default Work Unit\WaterFall	
+	3879956212	DinoScreech			\Default Work Unit\DinoScreech	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	363117496	WaterFall	.cache\50\{5023D5B2-E412-25A9-4FA2-933B595E06B9}.wem		\Containers\Default Work Unit\WaterFall		2337396
+	895440555	DinoScreech	.cache\A0\{A0692836-7A8B-1027-6E31-00E4D78A8036}.wem		\Containers\Default Work Unit\DinoScreech		723552
+

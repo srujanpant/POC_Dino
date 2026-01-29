@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "678976414",
+    "Type": "Event",
+    "GUID": "{855F1845-8F2C-4085-A090-B07332D70982}",
+    "Language": "SFX",
+    "Hash": "{31E753AC-12C0-B030-5F5E-E85E8B80F2C1}",
+    "ObjectPath": "DinoFootsteps",
+    "ShortName": "DinoFootsteps",
+    "Path": "Event/DinoFootsteps.bnk",
+    "Media": [
+     {
+      "Id": "131475101",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "hit_2.wav",
+      "Path": "Media/131475101.wem",
+      "CachePath": "38/{382BCB88-F87C-C858-FEE3-296F97C41C12}.wem"
+     },
+     {
+      "Id": "651664404",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "hit_1.wav",
+      "Path": "Media/651664404.wem",
+      "CachePath": "3D/{3DD64B27-C38C-F48E-ED32-88BBEE377C4C}.wem"
+     },
+     {
+      "Id": "1033679811",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "hit_3.wav",
+      "Path": "Media/1033679811.wem",
+      "CachePath": "E9/{E9F6D818-018D-16AD-DFB1-B55F87618DDD}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "678976414",
+      "Name": "DinoFootsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\DinoFootsteps",
+      "GUID": "{855F1845-8F2C-4085-A090-B07332D70982}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "2.5",
+      "MediaRefs": [
+       {
+        "Id": "131475101"
+       },
+       {
+        "Id": "651664404"
+       },
+       {
+        "Id": "1033679811"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{16340E63-5979-A04D-D575-38FD54169276}"
+ }
+}

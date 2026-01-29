@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{328558ED-BDC5-4164-B5F4-75B9AE56C42E}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{328558ED-BDC5-4164-B5F4-75B9AE56C42E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="DinoScreech" ID="{8E7683DA-BF79-4503-BEE4-7C38E81D5671}">
+					<ChildrenList>
+						<Action Name="" ID="{60515F3D-42B4-4E34-BFAE-3FE303E9FD5C}" ShortID="407330415">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DinoScreech" ID="{1EB1AB6D-1CB5-4A38-8C40-9D4364620266}" WorkUnitID="{EC21F599-7A86-4B52-87C5-2FF960AFE566}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="WaterFall" ID="{EAA9E95F-0BEE-4EF5-9B46-555D264F5ADA}">
+					<ChildrenList>
+						<Action Name="" ID="{A628A1B6-7491-4DB8-BBC0-56AF0FB3DB5B}" ShortID="520387139">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterFall" ID="{B495A715-3602-45F7-BEB5-48D9CF857838}" WorkUnitID="{EC21F599-7A86-4B52-87C5-2FF960AFE566}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DinoFootsteps" ID="{855F1845-8F2C-4085-A090-B07332D70982}">
+					<ChildrenList>
+						<Action Name="" ID="{8733D0A3-E12E-42C2-AB1A-E9D7EFE31270}" ShortID="973595559">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DinoFootsteps" ID="{599E800B-2CF2-49C6-B564-5EC9EEC40641}" WorkUnitID="{EC21F599-7A86-4B52-87C5-2FF960AFE566}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

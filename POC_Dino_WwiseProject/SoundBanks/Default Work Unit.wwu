@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A769F83F-007A-4F51-A97B-0DFE40EB4C5C}" SchemaVersion="133">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{A769F83F-007A-4F51-A97B-0DFE40EB4C5C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{B3966BAE-A6E1-4661-93E2-DE8CEF60FAE3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="DinoScreech" ID="{8E7683DA-BF79-4503-BEE4-7C38E81D5671}" WorkUnitID="{328558ED-BDC5-4164-B5F4-75B9AE56C42E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WaterFall" ID="{EAA9E95F-0BEE-4EF5-9B46-555D264F5ADA}" WorkUnitID="{328558ED-BDC5-4164-B5F4-75B9AE56C42E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
