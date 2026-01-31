@@ -47,6 +47,20 @@ void UAudioActorComponent::PlayMetaSound()
 		AudioComponent->Play();
 }
 
+void UAudioActorComponent::PlaySpatialAudioToEnd(FLatentActionInfo LatentInfo)
+{
+	if (WiseAudioEvent)
+	{
+		UAkGameplayStatics::PostAndWaitForEndOfEvent(WiseAudioEvent, GetOwner(), LatentInfo);
+		UAkGameplayStatics::SetOcclusionRefreshInterval(0, GetOwner());
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("Please assign a WWise Audio Event"));
+		return;
+	}
+}
+
 // Called when the game starts
 void UAudioActorComponent::BeginPlay()
 {

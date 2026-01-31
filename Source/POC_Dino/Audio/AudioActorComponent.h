@@ -28,6 +28,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Audio|MetaSound")
 	void PlayMetaSound();
 
+	UFUNCTION(BlueprintCallable, Category = "Audio|Wwise", meta = (Latent, LatentInfo = "LatentInfo"))
+	void PlaySpatialAudioToEnd(FLatentActionInfo LatentInfo);
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
