@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{B3966BAE-A6E1-4661-93E2-DE8CEF60FAE3}",
     "Language": "SFX",
-    "Hash": "{511DB16F-E7BF-4310-2FD5-238BC4E36265}",
+    "Hash": "{1A3AEBA5-9709-DFC4-F81C-0CD012684EF0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_AMB_Waterfall_01.wav",
-      "CachePath": "7C/{7C7A6D11-B837-F27E-9100-0346D1BB1B8F}.wem"
+      "CachePath": "FF/{FF03E0F5-3296-F287-45CC-ABF97237FE58}.wem"
      },
      {
       "Id": "267001658",
@@ -75,7 +75,7 @@
       "Name": "WaterFall",
       "ObjectPath": "\\Events\\Default Work Unit\\WaterFall",
       "GUID": "{EAA9E95F-0BEE-4EF5-9B46-555D264F5ADA}",
-      "MaxAttenuation": "5000",
+      "MaxAttenuation": "3000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -86,6 +86,6 @@
     ]
    }
   ],
-  "FileHash": "{083710BD-24A7-578E-FCB8-E231AA1E185F}"
+  "FileHash": "{70028A3C-6D36-6046-BEE0-FF97FE6B4204}"
  }
 }
