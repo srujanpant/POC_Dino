@@ -10,39 +10,60 @@
     "Type": "Event",
     "GUID": "{855F1845-8F2C-4085-A090-B07332D70982}",
     "Language": "SFX",
-    "Hash": "{31E753AC-12C0-B030-5F5E-E85E8B80F2C1}",
+    "Hash": "{038F24F7-F0AD-6B40-9A69-AA3AFBE3E8FF}",
     "ObjectPath": "DinoFootsteps",
     "ShortName": "DinoFootsteps",
     "Path": "Event/DinoFootsteps.bnk",
     "Media": [
      {
-      "Id": "131475101",
+      "Id": "334192743",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "hit_2.wav",
-      "Path": "Media/131475101.wem",
-      "CachePath": "38/{382BCB88-F87C-C858-FEE3-296F97C41C12}.wem"
+      "ShortName": "SFX_Fsteps_Jungle_01.wav",
+      "Path": "Media/334192743.wem",
+      "CachePath": "D7/{D711B8A5-13B2-F7F4-0C53-7CFFFACB7A2C}.wem"
      },
      {
-      "Id": "651664404",
+      "Id": "344646721",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "hit_1.wav",
-      "Path": "Media/651664404.wem",
-      "CachePath": "3D/{3DD64B27-C38C-F48E-ED32-88BBEE377C4C}.wem"
+      "ShortName": "SFX_Fsteps_Jungle_03.wav",
+      "Path": "Media/344646721.wem",
+      "CachePath": "15/{15E161A2-85FF-09E2-60DF-FD5688727A79}.wem"
      },
      {
-      "Id": "1033679811",
+      "Id": "528640028",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "hit_3.wav",
-      "Path": "Media/1033679811.wem",
-      "CachePath": "E9/{E9F6D818-018D-16AD-DFB1-B55F87618DDD}.wem"
+      "ShortName": "SFX_Fsteps_Jungle_02.wav",
+      "Path": "Media/528640028.wem",
+      "CachePath": "1A/{1A3D4AB0-41CD-4B70-4E52-6794A6B04515}.wem"
+     },
+     {
+      "Id": "822342055",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Fsteps_Jungle_05.wav",
+      "Path": "Media/822342055.wem",
+      "CachePath": "E0/{E047B898-D76E-2A52-8E50-BE95CD248D17}.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1431265797",
+       "Name": "Monsterize",
+       "ObjectPath": "\\Effects\\Factory Effects\\Pitch Shifter\\Transpose\\Monsterize",
+       "GUID": "{99F80B38-1C45-42CE-9BCD-E94F3885DCAA}",
+       "LibName": "Wwise Pitch Shifter",
+       "LibId": "8912899"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "678976414",
@@ -50,23 +71,33 @@
       "ObjectPath": "\\Events\\Default Work Unit\\DinoFootsteps",
       "GUID": "{855F1845-8F2C-4085-A090-B07332D70982}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "2.5",
+      "DurationMin": "0.58183676",
+      "DurationMax": "0.64648527",
       "MediaRefs": [
        {
-        "Id": "131475101"
+        "Id": "334192743"
        },
        {
-        "Id": "651664404"
+        "Id": "344646721"
        },
        {
-        "Id": "1033679811"
+        "Id": "528640028"
+       },
+       {
+        "Id": "822342055"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1431265797"
+        }
+       ]
+      }
      }
     ]
    }
   ],
-  "FileHash": "{1C5A1FCD-314A-C2CC-09A0-7D0153006932}"
+  "FileHash": "{FB42887B-2102-C19B-5EF0-D2AF0F75D649}"
  }
 }

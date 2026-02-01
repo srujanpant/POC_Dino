@@ -1,3 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	678976414	DinoFootsteps			\Default Work Unit\DinoFootsteps	
 
+Effect plug-ins	ID	Name	Type				Notes
+	1431265797	Monsterize	Wwise Pitch Shifter			
+

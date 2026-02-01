@@ -5,31 +5,6 @@
 			<ChildrenList>
 				<Folder Name="Dino" ID="{4BB6B276-A44D-4679-A18A-4D59FD2C304C}" ShortID="241871193">
 					<ChildrenList>
-						<Sound Name="DinoScreech" ID="{1EB1AB6D-1CB5-4A38-8C40-9D4364620266}" ShortID="636156483">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54A73ADE-05AA-40EF-9AB0-BB9E91E209BE}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{359CC890-9DA9-40CB-A1D8-1B66F8ED2D1B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="dinosaur-roar-390283" ID="{130402D8-86D7-4E5D-B9B1-1E310E32D4B4}">
-									<Language>SFX</Language>
-									<AudioFile>dinosaur-roar-390283.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="895440555"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="dinosaur-roar-390283" ID="{130402D8-86D7-4E5D-B9B1-1E310E32D4B4}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<RandomSequenceContainer Name="DinoFootsteps" ID="{599E800B-2CF2-49C6-B564-5EC9EEC40641}" ShortID="699962978">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -43,7 +18,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="hit_1" ID="{D1D307F4-44FA-479E-96F2-974095DB38BF}" ShortID="473040860">
+								<Sound Name="SFX_Fsteps_Jungle_01" ID="{BC0F5501-938C-403A-A774-BDAF35532DE1}" ShortID="714895149">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54A73ADE-05AA-40EF-9AB0-BB9E91E209BE}"/>
@@ -53,19 +28,26 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="hit_1" ID="{5255DE1B-01DD-44F7-89AC-2B430ED4AF07}">
+										<AudioFileSource Name="SFX_Fsteps_Jungle_01" ID="{1ABF051E-3ADE-4432-9117-B3646077FD12}">
 											<Language>SFX</Language>
-											<AudioFile>hit_1.wav</AudioFile>
+											<AudioFile>SFX_Fsteps_Jungle_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="651664404"/>
+												<MediaID ID="334192743"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_Fsteps_Jungle_02" ID="{8F28CBBE-28E8-47C1-9C91-F4569AF9A0D2}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Fsteps_Jungle_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="334192743"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="hit_1" ID="{5255DE1B-01DD-44F7-89AC-2B430ED4AF07}" Platform="Linked"/>
+										<ActiveSource Name="SFX_Fsteps_Jungle_02" ID="{8F28CBBE-28E8-47C1-9C91-F4569AF9A0D2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="hit_2" ID="{185342C8-BCBF-43BE-B5D4-F07F2E510E95}" ShortID="837468027">
+								<Sound Name="SFX_Fsteps_Jungle_02" ID="{4180A940-C4EB-4C27-A6DA-1C48E2F53A61}" ShortID="94292763">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54A73ADE-05AA-40EF-9AB0-BB9E91E209BE}"/>
@@ -75,19 +57,26 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="hit_2" ID="{DBF7A0E3-E790-4C0D-BB4A-0DAE4BA1A841}">
+										<AudioFileSource Name="SFX_Fsteps_Jungle_02" ID="{1DD8BBEC-E410-49FB-9FD9-7AFEE1279DB8}">
 											<Language>SFX</Language>
-											<AudioFile>hit_2.wav</AudioFile>
+											<AudioFile>SFX_Fsteps_Jungle_02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="131475101"/>
+												<MediaID ID="528640028"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_Fsteps_Jungle_01" ID="{CBD8BF02-EE52-4F51-9D64-8C75BFF6FA3D}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Fsteps_Jungle_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="528640028"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="hit_2" ID="{DBF7A0E3-E790-4C0D-BB4A-0DAE4BA1A841}" Platform="Linked"/>
+										<ActiveSource Name="SFX_Fsteps_Jungle_01" ID="{CBD8BF02-EE52-4F51-9D64-8C75BFF6FA3D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="hit_3" ID="{9BDC407C-C590-420D-8E7B-A87FC51D1DBC}" ShortID="729722669">
+								<Sound Name="SFX_Fsteps_Jungle_03" ID="{FCA6D982-71EB-4CD0-95CA-AC5779ACC301}" ShortID="367259289">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54A73ADE-05AA-40EF-9AB0-BB9E91E209BE}"/>
@@ -97,40 +86,132 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="hit_3" ID="{D47736D7-75B5-48EC-921F-1C09F561B5EB}">
+										<AudioFileSource Name="SFX_Fsteps_Jungle_03" ID="{BFCF6555-21B0-4DC4-9965-785DA18895B0}">
 											<Language>SFX</Language>
-											<AudioFile>hit_3.wav</AudioFile>
+											<AudioFile>SFX_Fsteps_Jungle_03.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1033679811"/>
+												<MediaID ID="344646721"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_Fsteps_Jungle_01" ID="{904059CB-4F7E-47AA-AB44-A6D0FFF01818}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Fsteps_Jungle_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="344646721"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="hit_3" ID="{D47736D7-75B5-48EC-921F-1C09F561B5EB}" Platform="Linked"/>
+										<ActiveSource Name="SFX_Fsteps_Jungle_01" ID="{904059CB-4F7E-47AA-AB44-A6D0FFF01818}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Fsteps_Jungle_04" ID="{57D0ACDF-3B63-433C-A0DD-E6A1B8851B6A}" ShortID="779153983">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54A73ADE-05AA-40EF-9AB0-BB9E91E209BE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{359CC890-9DA9-40CB-A1D8-1B66F8ED2D1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Fsteps_Jungle_04" ID="{2F9BD026-31DF-44DB-9555-80909B226A6A}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Fsteps_Jungle_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="675187741"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_Fsteps_Jungle_01" ID="{668A21AD-A694-45B2-A980-475301F1F33F}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Fsteps_Jungle_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="675187741"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_Fsteps_Jungle_02" ID="{30ADC5D4-DBDF-4611-9DF3-6996A2512B78}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Fsteps_Jungle_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="528640028"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_Fsteps_Jungle_03" ID="{0872BA37-CCA1-4DEB-A7A8-8E8C22BEE399}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Fsteps_Jungle_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="344646721"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_Fsteps_Jungle_05" ID="{EEA78E11-E807-48CD-A7AC-A0E5F55F5279}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Fsteps_Jungle_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="822342055"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Fsteps_Jungle_05" ID="{EEA78E11-E807-48CD-A7AC-A0E5F55F5279}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Fsteps_Jungle_05" ID="{2E95E2D4-D9EC-450D-98A9-C7EABB44A98E}" ShortID="128677216">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54A73ADE-05AA-40EF-9AB0-BB9E91E209BE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{359CC890-9DA9-40CB-A1D8-1B66F8ED2D1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Fsteps_Jungle_05" ID="{D51D2749-99DB-4EEA-B300-240C0CF164F0}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Fsteps_Jungle_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="822342055"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_Fsteps_Jungle_01" ID="{A3A7BA54-C8B6-4F27-9EB7-3C10BD4DECD2}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Fsteps_Jungle_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="822342055"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Fsteps_Jungle_01" ID="{A3A7BA54-C8B6-4F27-9EB7-3C10BD4DECD2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{9BA985EC-32F0-4A51-8060-B190FA3E129F}" ShortID="857733648">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+												<ObjectRef Name="Monsterize" ID="{99F80B38-1C45-42CE-9BCD-E94F3885DCAA}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
 						</RandomSequenceContainer>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Environment" ID="{211A6383-BC64-4670-9972-15C33AB8372D}" ShortID="811281362">
-					<ChildrenList>
-						<Sound Name="WaterFall" ID="{B495A715-3602-45F7-BEB5-48D9CF857838}" ShortID="1051899150">
+						<RandomSequenceContainer Name="DinoScreech" ID="{2835ACDC-044A-4902-A49D-29FBB523FA6A}" ShortID="50457683">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
 									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{238496D2-2B2E-4302-8BE4-B397DD042D00}" ShortID="88337299">
+										<Attenuation Name="Attenuation (Custom)" ID="{89F849C0-849E-4812-8DDE-8762CA010C3B}" ShortID="635484850">
 											<PropertyList>
 												<Property Name="RadiusMax" Type="Real64" Value="3000"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{B0334F52-CB0B-40BC-9D21-CE9D760D3E3A}">
+														<Curve Name="VolumeDry" ID="{3490AFED-0348-4027-9360-5F43FA2C07B2}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -139,6 +220,7 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>3000</XPos>
@@ -156,7 +238,237 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{2638D194-CF8C-4AE7-BCA9-ED93AED47A91}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>3000</XPos>
+																	<YPos>100</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<DualShelfUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</DualShelfUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+												<ObstructionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionVolumeUsage>
+												<ObstructionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionLPFUsage>
+												<ObstructionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionHPFUsage>
+												<ObstructionDSFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionDSFUsage>
+												<OcclusionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionVolumeUsage>
+												<OcclusionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionLPFUsage>
+												<OcclusionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionHPFUsage>
+												<OcclusionDSFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionDSFUsage>
+												<DiffractionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionVolumeUsage>
+												<DiffractionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionLPFUsage>
+												<DiffractionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionHPFUsage>
+												<DiffractionDSFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionDSFUsage>
+												<TransmissionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionVolumeUsage>
+												<TransmissionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionLPFUsage>
+												<TransmissionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionHPFUsage>
+												<TransmissionDSFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionDSFUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54A73ADE-05AA-40EF-9AB0-BB9E91E209BE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{359CC890-9DA9-40CB-A1D8-1B66F8ED2D1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_NPC_Raptor_01" ID="{5E9789EE-AFBB-47F0-8430-5670BB5FA70F}" ShortID="632603363">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54A73ADE-05AA-40EF-9AB0-BB9E91E209BE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{359CC890-9DA9-40CB-A1D8-1B66F8ED2D1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_NPC_Raptor_01" ID="{CCB1AE46-B6A6-4FE4-9755-A56C90CA730A}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_NPC_Raptor_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="630964969"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_NPC_Raptor_01" ID="{CCB1AE46-B6A6-4FE4-9755-A56C90CA730A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_NPC_Raptor_02" ID="{BAEB5CF8-AF8E-4112-9364-8CB528E94D3E}" ShortID="562458140">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54A73ADE-05AA-40EF-9AB0-BB9E91E209BE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{359CC890-9DA9-40CB-A1D8-1B66F8ED2D1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_NPC_Raptor_02" ID="{436647E6-32FB-4626-9C09-557B38F73E49}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_NPC_Raptor_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="609211524"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_NPC_Raptor_02" ID="{436647E6-32FB-4626-9C09-557B38F73E49}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_NPC_Raptor_03" ID="{B0FD2770-F3AA-4C89-AE9D-6B240416A18D}" ShortID="1064939614">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54A73ADE-05AA-40EF-9AB0-BB9E91E209BE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{359CC890-9DA9-40CB-A1D8-1B66F8ED2D1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_NPC_Raptor_03" ID="{ABAFB95D-DB02-49C6-A5F5-0846ED662E1C}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_NPC_Raptor_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="267001658"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_NPC_Raptor_03" ID="{ABAFB95D-DB02-49C6-A5F5-0846ED662E1C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{CBAE35E6-1E08-4F20-900D-27C350676C71}"/>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Environment" ID="{211A6383-BC64-4670-9972-15C33AB8372D}" ShortID="811281362">
+					<ChildrenList>
+						<Sound Name="SFX_AMB_Waterfall_01" ID="{A3E24226-2555-4A68-81A3-41F3322671A0}" ShortID="159560961">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{E0B35EA2-7480-4799-A862-F9F47AA8F9D8}" ShortID="1060042329">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="5000"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{992314CF-14A5-4EF2-8952-8518E1EB61F6}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>5000</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{5E88F4CE-F580-4514-A6E9-8272F94D09FD}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>5000</XPos>
+																	<YPos>100</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</LowPassFilterUsage>
 												<HighPassFilterUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -166,7 +478,7 @@
 												</DualShelfUsage>
 												<SpreadUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="Spread" ID="{F39972EC-C619-464D-91A7-CDB4C8840C6D}">
+														<Curve Name="Spread" ID="{F7C63D52-7675-4120-B616-3C230F78711F}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="1"/>
 															</PropertyList>
@@ -175,20 +487,10 @@
 																	<XPos>0</XPos>
 																	<YPos>100</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
-																	<YPos>100</YPos>
-																	<Flags>0</Flags>
-																	<SegmentShape>Log1</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>350</XPos>
-																	<YPos>0</YPos>
-																	<Flags>0</Flags>
-																</Point>
-																<Point>
-																	<XPos>3000</XPos>
+																	<XPos>5000</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -259,19 +561,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="mixkit-waterfall-ambience-2513" ID="{50BBD110-530F-4CD7-BE63-7756906C2657}">
-									<PropertyList>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-									</PropertyList>
+								<AudioFileSource Name="SFX_AMB_Waterfall_01" ID="{B6C9D1CD-C3CA-46C3-82BC-B62EFE5112C6}">
 									<Language>SFX</Language>
-									<AudioFile>mixkit-waterfall-ambience-2513.wav</AudioFile>
+									<AudioFile>SFX_AMB_Waterfall_01.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="363117496"/>
+										<MediaID ID="83892221"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{5ABDA04D-7C12-4BE5-BAA7-5AF158132499}"/>
+								<Position Name="" ID="{68717EF3-F134-493B-8946-27498020A151}"/>
+							</PositioningInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="mixkit-waterfall-ambience-2513" ID="{50BBD110-530F-4CD7-BE63-7756906C2657}" Platform="Linked"/>
+								<ActiveSource Name="SFX_AMB_Waterfall_01" ID="{B6C9D1CD-C3CA-46C3-82BC-B62EFE5112C6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

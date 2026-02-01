@@ -10,26 +10,42 @@
     "Type": "User",
     "GUID": "{B3966BAE-A6E1-4661-93E2-DE8CEF60FAE3}",
     "Language": "SFX",
-    "Hash": "{E3A07C7F-3657-222C-2C51-7AD148A4B70C}",
+    "Hash": "{511DB16F-E7BF-4310-2FD5-238BC4E36265}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
      {
-      "Id": "363117496",
+      "Id": "83892221",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "mixkit-waterfall-ambience-2513.wav",
-      "CachePath": "50/{5023D5B2-E412-25A9-4FA2-933B595E06B9}.wem"
+      "ShortName": "SFX_AMB_Waterfall_01.wav",
+      "CachePath": "7C/{7C7A6D11-B837-F27E-9100-0346D1BB1B8F}.wem"
      },
      {
-      "Id": "895440555",
+      "Id": "267001658",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "dinosaur-roar-390283.wav",
-      "CachePath": "A0/{A0692836-7A8B-1027-6E31-00E4D78A8036}.wem"
+      "ShortName": "SFX_NPC_Raptor_03.wav",
+      "CachePath": "93/{93197A21-51D5-BB4A-5AE2-095684B3B5B0}.wem"
+     },
+     {
+      "Id": "609211524",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_NPC_Raptor_02.wav",
+      "CachePath": "52/{52C8F6DF-0AAC-D85E-5693-874A290A25F7}.wem"
+     },
+     {
+      "Id": "630964969",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_NPC_Raptor_01.wav",
+      "CachePath": "C9/{C9E1F38D-899D-9021-BF60-AEE10547CE19}.wem"
      }
     ],
     "Events": [
@@ -38,12 +54,19 @@
       "Name": "DinoScreech",
       "ObjectPath": "\\Events\\Default Work Unit\\DinoScreech",
       "GUID": "{8E7683DA-BF79-4503-BEE4-7C38E81D5671}",
+      "MaxAttenuation": "3000",
       "DurationType": "OneShot",
-      "DurationMin": "4.1012244",
-      "DurationMax": "4.1012244",
+      "DurationMin": "2.06873",
+      "DurationMax": "2.360771",
       "MediaRefs": [
        {
-        "Id": "895440555"
+        "Id": "267001658"
+       },
+       {
+        "Id": "609211524"
+       },
+       {
+        "Id": "630964969"
        }
       ]
      },
@@ -52,17 +75,17 @@
       "Name": "WaterFall",
       "ObjectPath": "\\Events\\Default Work Unit\\WaterFall",
       "GUID": "{EAA9E95F-0BEE-4EF5-9B46-555D264F5ADA}",
-      "MaxAttenuation": "3000",
+      "MaxAttenuation": "5000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "363117496"
+        "Id": "83892221"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{BDE3AB89-0AEC-049F-FE17-52297C87B40B}"
+  "FileHash": "{083710BD-24A7-578E-FCB8-E231AA1E185F}"
  }
 }

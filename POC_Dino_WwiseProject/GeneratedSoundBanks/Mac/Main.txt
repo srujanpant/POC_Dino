@@ -3,6 +3,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	3879956212	DinoScreech			\Default Work Unit\DinoScreech	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	363117496	WaterFall	.cache\50\{5023D5B2-E412-25A9-4FA2-933B595E06B9}.wem		\Containers\Default Work Unit\WaterFall		2337396
-	895440555	DinoScreech	.cache\A0\{A0692836-7A8B-1027-6E31-00E4D78A8036}.wem		\Containers\Default Work Unit\DinoScreech		723552
+	83892221	SFX_AMB_Waterfall_01	.cache\7C\{7C7A6D11-B837-F27E-9100-0346D1BB1B8F}.wem		\Containers\Default Work Unit\Environment\SFX_AMB_Waterfall_01		2919472
+	267001658	SFX_NPC_Raptor_03	.cache\93\{93197A21-51D5-BB4A-5AE2-095684B3B5B0}.wem		\Containers\Default Work Unit\Dino\DinoScreech\SFX_NPC_Raptor_03		416536
+	609211524	SFX_NPC_Raptor_02	.cache\52\{52C8F6DF-0AAC-D85E-5693-874A290A25F7}.wem		\Containers\Default Work Unit\Dino\DinoScreech\SFX_NPC_Raptor_02		416536
+	630964969	SFX_NPC_Raptor_01	.cache\C9\{C9E1F38D-899D-9021-BF60-AEE10547CE19}.wem		\Containers\Default Work Unit\Dino\DinoScreech\SFX_NPC_Raptor_01		365020
 
